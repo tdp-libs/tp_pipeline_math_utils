@@ -4,9 +4,9 @@
 
 namespace tp_pipeline_math_utils
 {
-TDP_DEFINE_ID(                     polygonsSID,                         "Polygons")
-TDP_DEFINE_ID(                       floatsSID,                           "Floats")
-TDP_DEFINE_ID(                      regionsSID,                          "Regions")
+TDP_DEFINE_ID(                     polygonsSID,                         "Polygons");
+TDP_DEFINE_ID(                       floatsSID,                           "Floats");
+TDP_DEFINE_ID(                      regionsSID,                          "Regions");
 
 //##################################################################################################
 void createStepDelegates(tp_pipeline::StepDelegateMap& stepDelegates, const tp_data::CollectionFactory* collectionFactory)
