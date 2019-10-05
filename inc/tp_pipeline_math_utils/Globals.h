@@ -17,9 +17,9 @@ class StepDelegateMap;
 //! Adds math utils data types to the processing pipeline.
 namespace tp_pipeline_math_utils
 {
-tp_qt_DECLARE_ID(                     polygonsSID,                         "Polygons");
-tp_qt_DECLARE_ID(                       floatsSID,                           "Floats");
-tp_qt_DECLARE_ID(                      regionsSID,                          "Regions");
+TP_DECLARE_ID(                     polygonsSID,                         "Polygons");
+TP_DECLARE_ID(                       floatsSID,                           "Floats");
+TP_DECLARE_ID(                      regionsSID,                          "Regions");
 
 //##################################################################################################
 //! Add the step delegates that this module provides to the StepDelegateMap
